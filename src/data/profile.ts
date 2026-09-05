@@ -33,17 +33,15 @@ export const profile = {
 	displayName: '凌霄花的个人主页',
 	headline: '往事总在回忆时被赋予意义',
 	bioParagraphs: [
-		'我是凌霄花，欢迎你来到我的个人主页！',
+		'欢迎你来到我的个人主页',
 		'我目前就读于南京大学智能软件与工程学院，是一名本科生',
-		'这里展示了我的学习笔记和个人项目等等，用于记录我的学习和成长。秉持着开源精神，有需要笔记源文件、源代码的朋友可以从我的 Github 获取。鉴于我才疏学浅，错误之处还请谅解。',
-		'目前主要在学习 C++ & Linux 相关知识，并在实现我的第一个个人项目，相关仓库可从主页 GitHub 仓库卡片进入。',
-		'也欢迎各位和我交朋友！我很喜欢健身；吉他和音乐也是我的爱好！会一些简单的弹唱；游戏的话 CS2、三角洲、王者、吃鸡、瓦都有涉猎...',
-		'如果你想认识我，不管是交朋友、交流技术还是单纯闲的没事，都欢迎给我发邮件！',
+		'这里展示了我的学习笔记和个人项目等等。源文件、源代码均可以从我的 GitHub repo 获取。鉴于我才疏学浅，错误之处还请谅解。',
+		'目前的研究兴趣是 LLM-based Automated Program Repair ，感兴趣的朋友欢迎来信交流。',
 	] as string[],
 	avatarUrl: '/avatar.png',
-	email: 'luxiaohang060309@foxmail.com',
+	email: 'xiaohanglu@qq.com',
 	socialLinks: {
-		github: 'https://github.com/luxiaohanger',
+		github: 'https://github.com/xiaohanglu',
 		mastodon: '',
 		twitter: '',
 	},
@@ -51,17 +49,12 @@ export const profile = {
 		{
 			name: 'mini_web_server',
 			description: '基于 epoll 的高性能 Web Server',
-			href: 'https://github.com/luxiaohanger/mini_web_server',
-		},
-		{
-			name: 'UniBlog',
-			description: '[VibeCoding] 轻量社交博客平台',
-			href: 'https://github.com/luxiaohanger/UniBlog',
+			href: 'https://github.com/xiaohanglu/mini_web_server',
 		},
 		{
 			name: '个人主页',
-			description: '[VibeCoding] 本网站源码',
-			href: 'https://github.com/luxiaohanger/luxiaohanger.github.io',
+			description: '本网站源码',
+			href: 'https://github.com/xiaohanglu/xiaohanglu.github.io',
 		},
 	],
 

@@ -33,7 +33,7 @@ function normalizeLatexDelimitersPlugin() {
 // https://astro.build/config
 export default defineConfig({
 	// 与 GitHub 用户名一致：仓库名为「用户名.github.io」时通常为 https://用户名.github.io
-	site: 'https://luxiaohanger.github.io',
+	site: 'https://xiaohanglu.github.io',
 	markdown: {
 		remarkPlugins: [remarkMath, remarkLatexDelimiters],
 		rehypePlugins: [[rehypeKatex, rehypeKatexOptions]],

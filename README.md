@@ -1,6 +1,6 @@
 # 凌霄花的个人主页
 
-这是一个基于 Astro 的个人静态站点，用于展示个人简介、学习笔记和 GitHub 仓库链接。站点部署在 GitHub Pages：`https://luxiaohanger.github.io`。
+这是一个基于 Astro 的个人静态站点，用于展示个人简介、学习笔记和 GitHub 仓库链接。站点部署在 GitHub Pages：`https://xiaohanglu.github.io`。
 
 ## 技术栈
 
@@ -61,7 +61,7 @@ repositoryLinks: [
 	{
 		name: 'mini_web_server',
 		description: '基于 epoll 的高性能 Web Server',
-		href: 'https://github.com/luxiaohanger/mini_web_server',
+		href: 'https://github.com/xiaohanglu/mini_web_server',
 	},
 ];
 ```
@@ -122,7 +122,7 @@ npm run preview
 
 ## 部署
 
-仓库名为 `luxiaohanger.github.io`，对应 GitHub Pages 用户站点根路径。部署流程在 `.github/workflows/deploy.yml` 中：
+仓库名为 `xiaohanglu.github.io`，对应 GitHub Pages 用户站点根路径。部署流程在 `.github/workflows/deploy.yml` 中：
 
 1. push 到 `main`。
 2. GitHub Actions 使用 Node 22 执行 `npm ci`。
